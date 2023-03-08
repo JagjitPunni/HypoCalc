@@ -12,7 +12,8 @@
 }
 
 body {
-  color: var(--dark-color);
+  color: var(--white-color);
+  background-color: #0c3a54;
 }
 
 nav {
@@ -31,7 +32,7 @@ footer .social > a {
 
 footer .social > a:hover {
   opacity: 1;
-  color: var(--secondary-color);
+  color: #efca58;
 }
 
 h1,
@@ -40,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 code[class*='language-'],
@@ -78,5 +79,5 @@ main > .container {
 }
 
 .checklist > li i {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
